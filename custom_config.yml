@@ -1,0 +1,36 @@
+break_into_partial_movies: false
+camera_qualities:
+  default_quality: medium_high
+  high:
+    frame_rate: 60
+    resolution: 1920x1080
+  low:
+    frame_rate: 15
+    resolution: 854x480
+  medium:
+    frame_rate: 30
+    resolution: 1280x720
+  medium_high:
+    frame_rate: 60
+    resolution: 2048x1080
+  ultra_high:
+    frame_rate: 60
+    resolution: 3840x2160
+directories:
+  mirror_module_path: false
+  output: ''
+  raster_images: ''
+  sounds: ''
+  temporary_storage: __temp__
+  vector_images: ''
+style:
+  background_color: '#061304'
+  font: Ralleway
+tex:
+  executable: xelatex -no-pdf
+  intermediate_filetype: xdv
+  template_file: ctex_template.tex
+  text_to_replace: '[tex_expression]'
+universal_import_line: from manimlib import *
+window_monitor: 0
+window_position: UR
