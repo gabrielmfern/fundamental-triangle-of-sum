@@ -555,7 +555,6 @@ class Ending(Scene):
 
 class Thumbnail(Scene):
     def construct(self):
-        self.triangle = PascalTriangle(1.25)
-        self.triangle.generate(20)
-        self.triangle.group.scale(1/3)
+        self.triangle = PascalTriangle(3)
+        self.triangle.generate(5)
         self.add(self.triangle.group)

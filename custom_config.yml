@@ -1,6 +1,6 @@
 break_into_partial_movies: false
 camera_qualities:
-  default_quality: medium_high
+  default_quality: high
   high:
     frame_rate: 60
     resolution: 1920x1080
